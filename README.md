@@ -12,6 +12,13 @@
 ### 📈 Currently learning
 
 <!-- JOURNEY:START -->
+**Week 1 of 52** · Phase 0: Setup and orientation
+
+`░░░░░░░░░░░░░░░░░░░░` 2%
+
+This week: Setup and tooling
+
+Latest log: [week 01](https://github.com/microscopy-learn/ai-engineering-journey/blob/main/logs/week-01.md) · Full progress: [ai-engineering-journey](https://github.com/microscopy-learn/ai-engineering-journey)
 <!-- JOURNEY:END -->
 
 ### Featured projects
