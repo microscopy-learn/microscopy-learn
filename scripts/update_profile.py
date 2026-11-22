@@ -13,6 +13,7 @@ from pathlib import Path
 OWNER, REPO = "microscopy-learn", "ai-engineering-journey"
 README = Path(__file__).resolve().parent.parent / "README.md"
 TOTAL_WEEKS = 52
+START = "1 January 2027"
 PHASES = {
     0: "Setup and orientation",
     1: "Python, maths and data foundations",
@@ -71,10 +72,16 @@ def render() -> str:
             entries.append(meta)
     repo_url = f"https://github.com/{OWNER}/{REPO}"
     if not entries:
-        return f"Starting soon. Follow along in [{REPO}]({repo_url})."
+        return f"Starting {START}. Follow along in [{REPO}]({repo_url})."
     entries.sort(key=lambda e: e["week"])
     latest = entries[-1]
-    hours = sum(to_number(e.get("hours")) or 0 for e in entries)
+    if latest["week"] < 1:
+        return (
+            f"**Starting {START}** · a 52-week plan, January 2027 to January 2028\n\n"
+            "Setup done: project template, learning log and this auto-updating profile.\n\n"
+            f"Follow along: [{REPO}]({repo_url})"
+        )
+    hours = sum(to_number(e.get("hours")) or 0 for e in entries if e["week"] >= 1)
     filled = round(20 * latest["week"] / TOTAL_WEEKS)
     lines = [
         f"**Week {latest['week']} of {TOTAL_WEEKS}** · Phase {latest['phase']}: "
