@@ -12,13 +12,11 @@
 ### 📈 Currently learning
 
 <!-- JOURNEY:START -->
-**Week 1 of 52** · Phase 0: Setup and orientation
+**Starting 1 January 2027** · a 52-week plan, January 2027 to January 2028
 
-`░░░░░░░░░░░░░░░░░░░░` 2%
+Setup done: project template, learning log and this auto-updating profile.
 
-This week: Setup and tooling
-
-Latest log: [week 01](https://github.com/microscopy-learn/ai-engineering-journey/blob/main/logs/week-01.md) · Full progress: [ai-engineering-journey](https://github.com/microscopy-learn/ai-engineering-journey)
+Follow along: [ai-engineering-journey](https://github.com/microscopy-learn/ai-engineering-journey)
 <!-- JOURNEY:END -->
 
 ### Featured projects
