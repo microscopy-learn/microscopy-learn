@@ -9,6 +9,11 @@
 - 📍 Toronto, Canada
 <!-- - 💼 Open to senior AI engineer and knowledge-graph roles (remote; Canada and US) -->
 
+### 📈 Currently learning
+
+<!-- JOURNEY:START -->
+<!-- JOURNEY:END -->
+
 ### Featured projects
 
 | Project | What it does | Proof |
